@@ -1,0 +1,16 @@
+{
+  "languageserver": {
+    "arduino":{ 
+      "command":"C:\\Users\\Mitu-school\\arduino-lsp\\arduino-language-server.exe",
+      "rootPatterns":["*.ino"],
+      "filetypes":["arduino"],
+      "args":[
+        "-cli", "C:\\Users\\Mitu-school\\AppData\\Local\\Programs\\Arduino IDE\\resources\\app\\lib\\backend\\resources\\arduino-cli.exe",
+        "-clangd", "C:\\Users\\Mitu-school\\AppData\\Local\\Programs\\Arduino IDE\\resources\\app\\lib\\backend\\resources\\clangd.exe", 
+        "-cli-config", "C:\\Users\\Mitu-school\\AppData\\Local\\Arduino15\\arduino-cli.yaml", 
+        "-fqbn", "esp32:esp32:esp32wrover"
+      ],
+      "disabledFeatures":["semanticTokens"]
+    }
+  }
+}
